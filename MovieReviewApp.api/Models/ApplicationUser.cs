@@ -2,7 +2,7 @@
 
 namespace MovieReviewApp.api.Models
 {
-    public class ApplicationUser : IdentityUser
+    public class ApplicationUser : IdentityUser<int>
     {
     }
 }
